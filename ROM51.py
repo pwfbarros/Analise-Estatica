@@ -811,7 +811,7 @@ P = np.array([n.cg[0],n.cg[1],n.th])
 pos_f = nR2.newtonRaphson2(f,P,h=1E-12,tol=1E-15,max_it=30)
 
 #plota geometria final
-#plt_geo(n,l,d) 
+plt_geo(n,l,d) 
 
 #organiza e plota saida final de forcas por objeto
 resumo = pd.DataFrame({'Elemento':(),'Fx':(),'Fy':(),'Mz':()})
